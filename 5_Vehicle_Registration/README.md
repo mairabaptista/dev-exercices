@@ -3,18 +3,20 @@
 Esta é uma aplicação para cadastro de veículos. É capaz de fazer as seguintes operações:
 * Cadastro de novos veículos, a partir do formato:
 ```bash
-modelo: string
-marca: string
-ano: integer
-descricao: text
-vendido: bool
+{
+    "modelo": "fit",
+    "marca": "Honda",
+    "ano": "2009",
+    "descricao": "alguma descricao",
+    "vendido": True
+}
 ```
 * Listagem de veículos cadastrados.
 * Listagem de veículo por ID.
 * Exclusão de veículos.
 * Alteração de informações de um veículo.
 
-A é feita a partir da MEAN stack, utilizando um banco de dado Mongo Atlas (hospedado na nuvem através de AWS), Express, Angular e NodeJS.
+A aplicação utiliza um banco de dados Mongo Atlas (hospedado na nuvem através de AWS), Express e NodeJS.
 
 ## Instalação 
 
@@ -47,7 +49,11 @@ Ir até a pasta principal do projeto `C:/.../5_Vehicle_Registration` e executar:
 npm start
 ```
 
-### Lado do Front End:
+O endereço da aplicação se encontra em:
+
+```bash
+localhost:3000
+```
 
 
 
