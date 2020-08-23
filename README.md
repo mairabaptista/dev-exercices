@@ -13,5 +13,5 @@ Os requisitos individuais de cada exercício podem ser encontrados no `README` d
 
 ## Uso
 
-O guia de uso para cada um dos exercícios podem ser encontrados no `README` de cada um deles.
+O guia de uso para cada um dos exercícios pode ser encontrados no `README` de cada um deles.
 
