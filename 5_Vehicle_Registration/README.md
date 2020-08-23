@@ -4,7 +4,7 @@ Esta é uma aplicação para cadastro de veículos. É capaz de fazer as seguint
 * Cadastro de novos veículos, a partir do formato:
 ```bash
 {
-    "modelo": "fit",
+    "modelo": "modelo_do_carro",
     "marca": "Honda",
     "ano": "2009",
     "descricao": "alguma descricao",
