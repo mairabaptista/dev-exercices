@@ -1,5 +1,5 @@
 {
     "env": {
-        "mongo_db": "dbUserPass"
+        "mongo_db": "dbUSERPass"
     }
 }
