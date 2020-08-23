@@ -14,8 +14,9 @@ const mongoose = require('mongoose');
 const veiculosRoutes = require('./api/routes/veiculos');
 
 //connect to mongoose
-mongoose.connect('mongodb+srv://dbUser:dbUserPass@cluster0.hotji.mongodb.net/cluster0?retryWrites=true&w=majority', {
-    useMongoClient: true
+mongoose.connect('mongodb+srv://dbUser:'+ process.env.mongo_db +'@cluster0.hotji.mongodb.net/<dbname>?retryWrites=true&w=majority', {
+    useNewUrlParser: true, 
+    useUnifiedTopology: true 
 })
 //const { urlencoded } = require('body-parser');
 
